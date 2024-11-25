@@ -1,0 +1,23 @@
+{
+  "name": "huaweichenai/dmbase",
+  "description": "该组件扩展支持yii框架不支持的数据库驱动，目前增加了达梦数据库的支持，并对部分函数、关键字做了mysql格式的语法翻译。",
+  "keywords": ["yii2", "db", "db extension", "dm", "translate", "driver", "validate"],
+  "require": {
+    "php": ">=5.5",
+    "greenlion/php-sql-parser": "^4.6"
+  },
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "huaweichenai",
+      "email": "243681093@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "huaweichenai\\dmbase\\": "src"
+    }
+  }
+}
